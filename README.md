@@ -29,6 +29,11 @@
 * * * Comment
 * * * OneToMany
 * symfony console make:migration
-* symfony console doctrine:migration:migrate    
+* symfony console doctrine:migration:migrate
+* symfony console cache:clear 
+* symfony serve
+* symfony console make:controller
+* * HomeController
+* symfony console debug:router
 
 
