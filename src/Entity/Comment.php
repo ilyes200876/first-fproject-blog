@@ -22,6 +22,9 @@ class Comment
     #[ORM\JoinColumn(nullable: false)]
     private ?Article $article = null;
 
+    #[ORM\Column(type: Types::TEXT)]
+    private ?string $content = null;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -62,5 +65,11 @@ class Comment
 
         return $this;
     }
+
+  public function __toString(): string
+  {
+    return $this->content;
+  }
+
 
 }

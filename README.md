@@ -38,6 +38,15 @@
 * php bin/console make:controller Login
 * composer require symfony/security-bundle
 * symfony console security:hash-password
-* symfony console make:registration-form  
+* symfony console make:registration-form
+* symfony console make:crud
+* * * User
+* * * UserController
+* symfony console make:crud
+* * * Article
+* * * ArticleController
+* symfony console make:crud
+* * * Comment
+* * * CommentController
 
 
