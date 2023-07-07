@@ -35,5 +35,8 @@
 * symfony console make:controller
 * * HomeController
 * symfony console debug:router
+* php bin/console make:controller Login
+* composer require symfony/security-bundle
+* symfony console security:hash-password
 
 
