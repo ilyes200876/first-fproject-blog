@@ -28,5 +28,7 @@
 * * * relation
 * * * Comment
 * * * OneToMany
+* symfony console make:migration
+* symfony console doctrine:migration:migrate    
 
 
